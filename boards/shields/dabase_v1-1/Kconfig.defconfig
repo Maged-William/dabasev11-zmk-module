@@ -1,0 +1,17 @@
+# Copyright (c) 2022 Duccio Breschi
+# SPDX-License-Identifier: MIT
+
+if SHIELD_DABASE_V11_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "DabaseV1.1"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_DABASE_V11_LEFT || SHIELD_DABASE_V11_RIGHT
+config ZMK_SPLIT
+    default y
+endif

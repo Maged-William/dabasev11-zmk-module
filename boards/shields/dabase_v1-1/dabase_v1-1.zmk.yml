@@ -1,0 +1,11 @@
+file_format: "1"
+id: dabase_v1-1
+name: dabase_v1-1
+type: shield
+url: https://github.com/Maged-William/dabase_v1-1
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - dabase_v1-1_left
+  - dabase_v1-1_right
