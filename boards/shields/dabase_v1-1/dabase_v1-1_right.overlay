@@ -5,6 +5,7 @@
  */
 
 #include "dabase_v1-1.dtsi"
+#include "dabase_v1-1_esb_addr.dtsi"
 
 &default_transform {
     col-offset = <6>;
