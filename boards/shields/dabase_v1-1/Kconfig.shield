@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_DABASE_V11_LEFT
-    def_bool $(shields_list_contains,dabase_v1-1_left)
+    def_bool $(shields_list_contains,dabase_v0-2_left)
 
 config SHIELD_DABASE_V11_RIGHT
-    def_bool $(shields_list_contains,dabase_v1-1_right)
+    def_bool $(shields_list_contains,dabase_v0-2_right)

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "dabase_v1-1.dtsi"
+#include "dabase_v0-2.dtsi"
 
 &kscan0 {
     diode-direction = "col2row";
